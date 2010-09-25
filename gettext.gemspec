@@ -429,7 +429,14 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{gettext}
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{Ruby-GetText-Package is a library and tools to localize messages.}
-  s.test_files = ["test/test_textdomain.rb", "test/test_textdomain_toplevel.rb", "test/test_gettext.rb", "test/test_parser.rb", "test/test_string.rb", "test/test_class_info.rb", "test/test_textdomain_multi.rb"]
+  s.test_files = [
+    #"test/test_textdomain.rb",
+    "test/test_textdomain_toplevel.rb",
+    "test/test_gettext.rb",
+    "test/test_parser.rb",
+    "test/test_string.rb",
+    "test/test_class_info.rb",
+    "test/test_textdomain_multi.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
