@@ -24,6 +24,7 @@ if Object.constants.include? "Gem"
   end
 end
 
+require 'rbconfig'
 require 'locale'
 raise "Install locale as gem or uninstall old gettext" unless Locale.respond_to? :candidates
 
